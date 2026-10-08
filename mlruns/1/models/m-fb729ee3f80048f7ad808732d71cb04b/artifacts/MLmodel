@@ -1,0 +1,24 @@
+artifact_path: /home/zeyad/data-eng-projects/SIC_Task_Projects/mlflow-task/mlruns/1/models/m-fb729ee3f80048f7ad808732d71cb04b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.16
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.0
+model_id: m-fb729ee3f80048f7ad808732d71cb04b
+model_size_bytes: 2943867
+model_uuid: m-fb729ee3f80048f7ad808732d71cb04b
+prompts: null
+run_id: 855171ec19c74861a522fe4f6f8023bf
+utc_time_created: '2026-10-08 21:31:10.006959'
